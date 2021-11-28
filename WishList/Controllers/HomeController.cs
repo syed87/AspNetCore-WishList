@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Web.Mvc;
+
 
 namespace WishList.Controllers
 {
@@ -7,12 +7,12 @@ namespace WishList.Controllers
     {
         public ActionResult Index()
         {
-            return View(Index);
+            return View();
         }
 
         public ActionResult Error()
         {
-            return View(Error);
+            return View();
         }
     }
 }
