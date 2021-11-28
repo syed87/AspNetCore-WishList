@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WishList.Data
+namespace WishList.Models
 {
     public class item
     {
